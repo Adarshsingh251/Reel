@@ -2,6 +2,7 @@ let swiper = new Swiper(".slider", {
   loop: true,
   direction: 'vertical',
   mousewheel: true,
+  spaceBetween: 5,
   navigation:{
     nextEl: ".down",
     prevEl: ".up",
@@ -26,15 +27,3 @@ let swiper = new Swiper(".slider", {
   }
 });
 
-
-// let down = document.querySelector(".down");
-// let up = document.querySelector(".up");
-
-// down.addEventListener("click",function(){
-//   down.style.color = "yellow";
-//   down.style.backgroundColor = "red"
-// })
-// up.addEventListener("click",function(){
-//   up.style.color = "yellow";
-//   up.style.backgroundColor = "red"
-// })
