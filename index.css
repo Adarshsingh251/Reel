@@ -93,7 +93,7 @@ body {
 }
 
 .navigate .up:hover {
-    color: yellow;
+    color: red;
 }
 
 .navigate .down:hover {

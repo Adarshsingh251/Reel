@@ -30,7 +30,7 @@
         border-radius: 30px;
     }
     .navigate .up:hover{
-        color: yellow;
+        color: red;
     }
     .navigate .down:hover{
         color: yellow;

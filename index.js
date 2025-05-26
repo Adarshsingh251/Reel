@@ -33,3 +33,15 @@ window.addEventListener("load", () => {
     firstVideo.play().catch(err => console.log("Autoplay failed:", err));
   }
 });
+
+// let down = document.querySelector(".down");
+// let up = document.querySelector(".up");
+
+// down.addEventListener("click",function(){
+//   down.style.color = "yellow";
+//   down.style.backgroundColor = "red"
+// })
+// up.addEventListener("click",function(){
+//   up.style.color = "yellow";
+//   up.style.backgroundColor = "red"
+// })
