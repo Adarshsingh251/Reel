@@ -7,4 +7,32 @@
         width: 80%;
         height: 90%;
     }
+    .slider{
+        margin-right: 12vw;
+    }
+    .navigate{
+        position: absolute;
+        top: 50%;
+        transform: translate(0,-50%);
+        right: 8px;
+    }
+    .navigate .up{
+        font-size: 2rem;
+        background-color: rgb(231,230,230);
+        padding: 7px 10px;
+        border-radius: 30px;
+        margin-bottom: 16px;
+    }
+    .navigate .down{
+        font-size: 2rem;
+        background-color: rgb(231,230,230);
+        padding: 7px 10px;
+        border-radius: 30px;
+    }
+    .navigate .up:hover{
+        color: yellow;
+    }
+    .navigate .down:hover{
+        color: yellow;
+    }
 }

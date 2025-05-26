@@ -2,6 +2,10 @@ let swiper = new Swiper(".slider", {
   loop: true,
   direction: 'vertical',
   mousewheel: true,
+  navigation:{
+    nextEl: ".down",
+    prevEl: ".up",
+  },
   on: {
     slideChange: function () {
       // Pause all videos
