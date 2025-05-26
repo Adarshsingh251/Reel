@@ -26,13 +26,6 @@ let swiper = new Swiper(".slider", {
   }
 });
 
-// Play the first video on page load
-window.addEventListener("load", () => {
-  const firstVideo = document.querySelector(".swiper-slide-active video");
-  if (firstVideo) {
-    firstVideo.play().catch(err => console.log("Autoplay failed:", err));
-  }
-});
 
 // let down = document.querySelector(".down");
 // let up = document.querySelector(".up");
