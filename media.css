@@ -35,4 +35,8 @@
     .navigate .down:hover{
         color: yellow;
     }
+    .slider .swiper-slide iframe{
+    height: 99%;
+    width: 100%;
+}
 }
