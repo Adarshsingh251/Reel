@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Short</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main">
+        <h2>Welcome to our cutetube..</h2>
+        <div class="btn">
+           <a href="http://localhost:<%= process.env.PORT %>/newVideo"><button>Add new Video</button></a>
+        </div>
+        <div class="slider">
+            <div class="swiper-wrapper">
+                <% for(const oneLink of result){ %>
+                <div class="swiper-slide">
+                    <iframe  src="<%= oneLink.link %>" allow="autoplay"
+      frameborder="0"></iframe>
+                </div>
+                <% } %>
+            </div>
+        </div>
+        <div class="navigate">
+            <i class="fa-solid fa-arrow-up up"></i>
+            <i class="fa-solid fa-arrow-down down"></i>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/used.js"></script>
+</body>
+
+</html>

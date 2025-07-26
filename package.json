@@ -1,0 +1,27 @@
+{
+  "name": "shorts-youtube",
+  "version": "1.0.0",
+  "description": "This is my own short yt channel",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adarshsingh251/Reel.git"
+  },
+  "author": "Adarsh Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adarshsingh251/Reel/issues"
+  },
+  "homepage": "https://github.com/Adarshsingh251/Reel#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.2",
+    "nodemon": "^3.1.10",
+    "uuid": "^11.1.0"
+  }
+}

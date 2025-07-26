@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .main h2 {
@@ -29,7 +30,14 @@ body {
     text-transform: capitalize;
     font-weight: 800;
 }
-
+.main .btn{
+    position: absolute;
+    top:50%;
+    left: 200px;
+}
+.btn button{
+    padding: 9px 19px;
+}
 .slider {
     width: 25%;
     height: 88%;
